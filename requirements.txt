@@ -1,0 +1,12 @@
+python-dotenv
+ccxt
+web3
+requests
+pytest
+# asyncio is part of the Python standard library
+# websockets  # For CEX WebSocket streams (optional/future)
+# pandas  # For data handling (optional)
+# fastapi  # For dashboard (optional/future)
+# flask  # For dashboard (optional/future)
+# aiosmtplib  # For async email alerts (optional)
+# python-telegram-bot  # For Telegram alerts (optional)
