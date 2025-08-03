@@ -10,8 +10,8 @@ def test_detect_opportunity_simple():
         }
     }
     detector = ArbitrageDetector()
-    opps = detector.detect_opportunity(prices)
-    assert len(opps) > 0
-    assert opps[0]['buy_venue'] == 'binance'
-    assert opps[0]['sell_venue'] == 'aerodrome'
-    assert opps[0]['pair'] == 'RIZE/USDT' 
+    opportunities = detector.detect_opportunity(prices)
+    assert len(opportunities) > 0
+    assert opportunities[0]['buy_venue'] == 'binance'
+    assert opportunities[0]['sell_venue'] == 'aerodrome'
+    assert opportunities[0]['pair'] == 'RIZE/USDT'
